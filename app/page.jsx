@@ -9,9 +9,9 @@ import Tapestry from '../components/Tapestry';
 export default function Index() {
   return (
     <>
-      <Tapestry />
+      {/* <Tapestry />
       <hr />
-      <Content />
+      <Content /> */}
     </>
   );
 }

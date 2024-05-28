@@ -58,3 +58,25 @@ p code {
 .container .mt-5 {
   margin-top: 0rem !important;
 }
+
+.navbar {
+  box-shadow: none !important;
+  background-color: rgba(0,0,0,0.0) !important;
+}
+
+.background {
+  background-image: url("/gady.png");
+  background-size: cover;
+}
+
+@font-face {
+  font-family: "Varino-Regular";
+  src: url('/fonts/Varino-Regular.ttf') format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Varino-Light";
+  src: url('/fonts/Varino-Light.ttf') format("truetype");
+  font-display: swap;
+}

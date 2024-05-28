@@ -3,7 +3,7 @@ import React from 'react';
 import Logo from './Logo';
 
 const Tapestry = () => (
-  <div className='heroimg mt-2'>
+  <div className='heroimg'>
 
 
   </div>
