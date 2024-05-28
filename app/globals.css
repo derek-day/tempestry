@@ -80,3 +80,10 @@ p code {
   src: url('/fonts/Varino-Light.ttf') format("truetype");
   font-display: swap;
 }
+
+@font-face {
+  font-family: "Space";
+  src: url('/fonts/Space.ttf') format("truetype");
+  font-display: swap;
+}
+
