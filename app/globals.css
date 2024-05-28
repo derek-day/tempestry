@@ -44,3 +44,17 @@ p code {
   height: 100%;
   width: 100%;
 }
+
+.container {
+  max-width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.mt-5 {
+  margin-top: 0rem !important;
+}
+
+.container .mt-5 {
+  margin-top: 0rem !important;
+}
