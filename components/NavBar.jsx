@@ -26,7 +26,6 @@ const NavBar = () => {
 
   return (
     <>
-    <div className='background'>
       <div className="nav-container" data-testid="navbar">
         <Navbar expand="md">
           <Container>
@@ -154,15 +153,7 @@ const NavBar = () => {
             </Collapse>
           </Container>
         </Navbar>
-      </div>
-      
-      <div className='intro' style={{maxWidth:"30%", marginLeft:"4rem", marginTop:"20rem"}}>
-        <h5><u>The Cupbearer</u></h5>
-        <h1>UNVEILING THE MYSTERIES OF MARS</h1>
-        <p className='mt-5'>Test</p>
-        <button className='mt-5' style={{marginBottom:"12rem"}}>Read More</button>
-      </div>
-    </div>
+      </div>      
   </>
   );
 };

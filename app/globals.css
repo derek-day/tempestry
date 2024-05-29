@@ -113,6 +113,12 @@ h1 {
   letter-spacing: 0.15rem !important;
 }
 
+h5 {
+  font-weight: 400 !important;
+  font-size: 1.2rem !important;
+  letter-spacing: 0.025rem !important;
+}
+
 p {
   /* font-family: 'Ghibli' !important; */
   font-weight: 100 !important;
@@ -121,7 +127,18 @@ p {
 }
 
 .heroimg2 {
-  background-image: url("/slide.png");
+  margin-top: -8rem;
+  background-image: url("/gady.png");
   background-size: cover;
-  mask-image: linear-gradient(to top,rgba(0,0,0,1) 75%,transparent 100%);
+  mask-image: linear-gradient(to bottom,rgba(0,0,0,1) 75%,transparent 100%);
+
+  /* background-image: url("/slide.png");
+  background-size: cover;
+  mask-image: linear-gradient(to top,rgba(0,0,0,1) 75%,transparent 100%); */
+}
+
+.nav-container {
+  /* position: fixed; */
+  top: 0;
+  z-index: 1030;
 }

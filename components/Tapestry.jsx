@@ -4,11 +4,19 @@ import Logo from './Logo';
 
 const Tapestry = () => (
   <div className='heroimg2'>
-    <div>
+    {/* <div>
         <h1 style={{marginLeft:"4rem", marginTop:"5rem"}}>UNVEILING THE MYSTERIES OF MARS</h1>
         <p className='mt-5'>Test</p>
         <button className='mt-5' style={{marginBottom:"5rem"}}>Read More</button>
-    </div>
+    </div> */}
+
+        <div className='intro' style={{maxWidth:"30%", marginLeft:"4rem", marginTop:"20rem"}}>
+          <h5 className='mb-4'><u>The Cupbearer</u></h5>
+          <h1>UNVEILING THE MYSTERIES OF MARS</h1>
+          <p className='mt-4'>Test</p>
+          <button className='mt-4' style={{marginBottom:"12rem"}}>Read More</button>
+        </div>
+
   </div>
   // <div className="hero my-5 text-center" data-testid="hero">
   //   <Logo testId="hero-logo" />
