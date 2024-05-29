@@ -2,6 +2,7 @@
 
 import './globals.css';
 import NavBar from '../components/NavBar';
+import Tapestry from '../components/Tapestry';
 import { Container } from 'reactstrap';
 import Footer from '../components/Footer';
 import React from 'react';
@@ -23,8 +24,8 @@ export default function RootLayout({ children }) {
         <UserProvider>
           <main id="app" className="d-flex flex-column h-100" data-testid="layout">
             <NavBar />
-            {/* <Container className="flex-grow-1 mt-5">{children}</Container> */}
-            <Container className="flex-grow-1">{children}</Container>
+            {/* <Container className="flex-grow-1">{children}</Container> */}
+            <Tapestry />
             <Footer />
           </main>
         </UserProvider>

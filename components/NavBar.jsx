@@ -156,8 +156,10 @@ const NavBar = () => {
         </Navbar>
       </div>
       
-      <div>
-        <h1>Test</h1>
+      <div className='intro' style={{maxWidth:"50%", marginLeft:"4rem", marginTop:"20rem"}}>
+        <h1>UNVEILING THE MYSTERIES OF MARS</h1>
+        <p className='mt-5'>Test</p>
+        <button className='mt-5' style={{marginBottom:"5rem"}}>Read More</button>
       </div>
     </div>
   </>

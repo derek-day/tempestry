@@ -51,22 +51,19 @@ p code {
   padding-right: 0 !important;
 }
 
-.mt-5 {
-  margin-top: 0rem !important;
-}
-
-.container .mt-5 {
-  margin-top: 0rem !important;
-}
-
 .navbar {
   box-shadow: none !important;
   background-color: rgba(0,0,0,0.0) !important;
 }
 
+html, body {
+  background-color: black !important;
+}
+
 .background {
   background-image: url("/gady.png");
   background-size: cover;
+  mask-image: linear-gradient(to bottom,rgba(0,0,0,1) 75%,transparent 100%);
 }
 
 @font-face {
@@ -87,3 +84,44 @@ p code {
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Ghibli";
+  src: url('/fonts/Ghibli.otf') format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ghibli-Bold";
+  src: url('/fonts/Ghibli-Bold.otf') format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fago";
+  src: url('/fonts/Fago.otf') format("opentype");
+  font-display: swap;
+}
+
+h1,h2,h3,h4,h5,h6,p,a {
+  color: white;
+}
+
+h1 {
+  font-family: 'Varino-Light';
+  font-weight: 100 !important;
+  font-size: 3rem !important;
+  letter-spacing: 0.15rem !important;
+}
+
+p {
+  /* font-family: 'Ghibli' !important; */
+  font-weight: 100 !important;
+  font-size: 1.2rem !important;
+  letter-spacing: 0.025rem !important;
+}
+
+.heroimg2 {
+  background-image: url("/slide.png");
+  background-size: cover;
+  mask-image: linear-gradient(to top,rgba(0,0,0,1) 75%,transparent 100%);
+}
