@@ -156,10 +156,10 @@ const NavBar = () => {
         </Navbar>
       </div>
       
-      <div className='intro' style={{maxWidth:"50%", marginLeft:"4rem", marginTop:"20rem"}}>
+      <div className='intro' style={{maxWidth:"30%", marginLeft:"4rem", marginTop:"20rem"}}>
         <h1>UNVEILING THE MYSTERIES OF MARS</h1>
         <p className='mt-5'>Test</p>
-        <button className='mt-5' style={{marginBottom:"5rem"}}>Read More</button>
+        <button className='mt-5' style={{marginBottom:"12rem"}}>Read More</button>
       </div>
     </div>
   </>
