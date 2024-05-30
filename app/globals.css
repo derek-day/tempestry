@@ -111,6 +111,7 @@ h1 {
   font-weight: 100 !important;
   font-size: 3rem !important;
   letter-spacing: 0.15rem !important;
+  filter: drop-shadow(0 0 8px rgba(248,235,201,.3)) blur(0.25px);
 }
 
 h5 {
