@@ -149,8 +149,15 @@ p {
   /* position: fixed; */
   top: 0;
   z-index: 1030;
+  border-bottom: 0.5px solid var(--light);
 }
 
 .navbar-nav .nav-link {
   color: white !important;
+}
+
+@media (max-width: 900px) {
+  .nav-container {
+    border-bottom: none;
+  }
 }
