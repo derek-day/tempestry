@@ -33,8 +33,8 @@ const NavBar = () => {
             <Collapse isOpen={isOpen} navbar>
               <Nav className="mr-auto" navbar data-testid="navbar-items">
                 <NavItem>
-                  <PageLink href="/" className="nav-link" testId="navbar-home">
-                    Home
+                  <PageLink href="/" className="nav-link varino" testId="navbar-home">
+                    TAPESTRY
                   </PageLink>
                 </NavItem>
                 {user && (
