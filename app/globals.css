@@ -145,6 +145,12 @@ p {
   mask-image: linear-gradient(to top,rgba(0,0,0,1) 75%,transparent 100%); */
 }
 
+.tapehero {
+  background-image: url("/test16.png");
+  background-size: cover;
+  mask-image: linear-gradient(to top,rgba(0,0,0,1) 75%,transparent 100%);
+}
+
 .nav-container {
   /* position: fixed; */
   top: 0;

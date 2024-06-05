@@ -3,6 +3,7 @@
 import './globals.css';
 import NavBar from '../components/NavBar';
 import Tapestry from '../components/Tapestry';
+import Tapehero from '../components/Tapehero';
 import { Container } from 'reactstrap';
 import Footer from '../components/Footer';
 import React from 'react';
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
             <NavBar />
             {/* <Container className="flex-grow-1">{children}</Container> */}
             <Tapestry />
+            <Tapehero />
             <Footer />
           </main>
         </UserProvider>
